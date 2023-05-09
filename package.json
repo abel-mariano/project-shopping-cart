@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "type": "module",
     "dev": "vite --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preview": "vite preview --port 8080",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
